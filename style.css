@@ -1,0 +1,141 @@
+
+body, ul, li, p {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Muli', sans-serif;
+}
+
+
+
+header {
+    size: 1200px;
+}
+
+.h1 {
+    src: 240px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fcfcfc;
+    font-style: bold;
+}
+
+.hero-colored-text {
+    color: #EB5757;
+}
+
+
+.hero-info {
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30pt;
+    line-height: 200%;    
+} 
+
+.hero-cta {
+    color: #fcfcfc;
+    font-family: 'Muli', sans-serif;
+    font: weight 1200;
+    text-align: center;
+    background-color:#EB5757;
+    font-size: 14pt;
+    display: flex;
+    padding: 18pt 32pt;
+    border-radius: 36px;
+    box-shadow: white
+}
+
+.hero-cta a:hover {
+    background-color: #fcfcfc;
+}
+
+
+/* CSS FLEX BOX */
+
+
+.title-products {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 56px;
+}
+
+.products {
+    justify-content: center ;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+
+.products div {
+    text-align: center;
+    flex:1 1 200px ;
+    max-width: 200px;
+    margin: 64px;
+    width: 100;
+    height: 200px;
+    left: 933px;
+    top: 915px;
+    padding: 30px;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 48px 12px;
+}
+
+.products div:hover {
+    text-align: center;
+    flex:1 1 200px ;
+    max-width: 200px;
+    margin: 64px;
+    width: 100;
+    height: 200px;
+    left: 933px;
+    top: 915px;
+    padding: 28px;
+    background: #FCFCFC;
+    border:#EB5757 2px solid;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 48px 12px;
+}
+
+
+.product-cta {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-align: center;
+    background-color:#EB5757;
+    margin-top: 64px;
+    font-size: 11pt;
+    width: 179px;
+    height: 52px;
+    left: 325px;
+    top: 122    2px;
+    border-radius: 36px;
+
+}
+
+.product-cta:hover {
+    background-color: #fcfcfc;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    color: #EB5757;
+    text-align: center;
+    border:#EB5757 2px solid;
+    margin-top: 64px;
+    font-size: 11pt;
+    width: 179px;
+    height: 52px;
+    left: 325px;
+    top: 122    2px;
+    border-radius: 36px;
+
+}
