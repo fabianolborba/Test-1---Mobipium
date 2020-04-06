@@ -45,16 +45,15 @@ a {
 } 
 
 .hero-cta {
-    color: #fcfcfc;
+    background-color: #EB5757;
     font-family: 'Muli', sans-serif;
-    font: weight 1200;
-    text-align: center;
-    background-color:#EB5757;
-    font-size: 14pt;
-    display: flex;
-    padding: 18pt 32pt;
-    border-radius: 36px;
-    box-shadow: white
+    font-weight: 500;
+    font-size: 18pt;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 100px;
 }
 
 .hero-cta a:hover {
@@ -143,6 +142,7 @@ a {
 
 
 .product-cta {
+    border: 0px;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
     color: #fcfcfc;
