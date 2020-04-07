@@ -1,9 +1,11 @@
 
-html {
-    scroll-behavior: smooth;
-    background-image: url('img/header/hero-img.png');
-    background-repeat: no-repeat;
-    background-position: top right;
+@media only screen and (min-width: 1025px) {
+    html {
+        scroll-behavior: smooth;
+        background-image: url('img/header/hero-img.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
 }
 
 
@@ -20,16 +22,19 @@ body, ul, li, p {
 
 }
 
-
-
-header {
-    size: 1600px;
+@media only screen and (max-width: 1025px) {
+    header {
+text-align: center;
+    }
 }
+
 
 .logo {
-    margin-top: 30px;
+    margin-top: 20px;
     src: 240px;
 }
+
+
 
 .hero-info {
     max-width: 700px;
@@ -60,6 +65,14 @@ a {
     line-height: 200%;    
 } 
 
+@media only screen and (max-width: 1025px) {
+    
+    .hero-info {
+        text-align: center;
+
+    
+    }
+}
 
 .hero-cta {
     background-color: #EB5757;
@@ -73,6 +86,9 @@ a {
     padding-right: 32px;
     border-radius: 100px;
 }
+
+
+
 
 .hero-cta:hover {
     transition: 0.6s;
@@ -203,6 +219,7 @@ a {
 
 
 footer {
+    font-size: 9px;
     margin-top: 32px;
     text-align: center;
     color: #EB5757;
