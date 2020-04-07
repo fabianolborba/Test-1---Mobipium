@@ -1,7 +1,12 @@
 
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    background-image: url('img/header/hero-img.png');
+    background-repeat: no-repeat;
+    background-position: top right;
 }
+
+
 
 body, ul, li, p {
     max-width: 1200px;
@@ -10,12 +15,13 @@ body, ul, li, p {
     list-style: none;
     font-size: 1.2rem;
     font-family: 'Muli', sans-serif;
+
 }
 
 
 
 header {
-    size: 1200px;
+    size: 1600px;
 }
 
 .logo {
@@ -27,9 +33,10 @@ header {
     max-width: 700px;
 }
 
+
 a {
     text-decoration: none;
-    color: #fcfcfc;
+    color: #EB5757;
     font-style: bold;
 }
 
@@ -53,6 +60,7 @@ a {
 
 .hero-cta {
     background-color: #EB5757;
+    color: #fcfcfc;
     font-family: 'Muli', sans-serif;
     font-weight: 500;
     font-size: 18pt;
@@ -186,5 +194,15 @@ a {
     background-color: #B81F1F;
     border: 0;
     color: #fcfcfc;
+}
+
+
+
+
+footer {
+    margin-top: 32px;
+    text-align: center;
+    color: #EB5757;
+   
 }
 
