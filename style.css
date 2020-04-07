@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth
+}
+
 body, ul, li, p {
     max-width: 1200px;
     margin: auto;
@@ -19,7 +23,9 @@ header {
     src: 240px;
 }
 
-
+.hero-info {
+    max-width: 700px;
+}
 
 a {
     text-decoration: none;
@@ -57,8 +63,21 @@ a {
     border-radius: 100px;
 }
 
-.hero-cta a:hover {
+.hero-cta:hover {
+    transition: 0.6s;
     background-color: #fcfcfc;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    color: #EB5757;
+    text-align: center;
+    border:#EB5757 2px solid;
+    font-weight: 500;
+    font-size: 18pt;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 31px;
+    padding-right: 31px;
+    border-radius: 100px;
 }
 
 
@@ -107,6 +126,21 @@ a {
     color:#EB5757;
 }
 
+/*  Change text button */
+
+.focus {
+    display: none;
+}
+
+.product-cta:focus .normal {
+    display: none;
+}
+
+.product-cta:focus .focus {
+    display: block;}
+
+/* --- END --- */
+
 
 
 .product-cta {
@@ -127,7 +161,10 @@ a {
 }
 
 
+
 .product-cta:hover {
+    transition-duration: 0.6s;
+    cursor: pointer;
     background-color: #fcfcfc;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
@@ -143,3 +180,11 @@ a {
     border-radius: 36px;
 
 }
+
+.product-cta:focus {
+    transition: 0.6s;
+    background-color: #B81F1F;
+    border: 0;
+    color: #fcfcfc;
+}
+
